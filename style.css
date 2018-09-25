@@ -1,5 +1,5 @@
 html, body {
-  display: inline;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -11,7 +11,7 @@ html, body {
   background-color: green;
   
   max-width: 50%;
-  display: inline;
+  display: flex;
   flex-direction: row;
   height: 80%;
 }
@@ -22,7 +22,7 @@ html, body {
   margin: 5px;
   max-width: 50%;
   flex: 1;
-  display: inline;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
